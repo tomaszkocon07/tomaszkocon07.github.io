@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patocoach dostaje kopa na łeb</title>
+    <style>
+        /* Ustawienia stylów */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        h1 {
+            margin-top: 30px; /* Większy odstęp od góry */
+            text-align: center;
+            font-size: 26px;
+            font-weight: normal;
+        }
+
+        .highlight {
+            font-size: 36px;
+            color: red;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            display: block;
+            margin-top: 10px;
+            letter-spacing: 1.5px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 90%; /* Szerokość wideo 90% */
+            max-width: 960px; /* Maksymalna szerokość wideo */
+            height: 0;
+            padding-bottom: 56.25%; /* Proporcje 16:9 */
+            margin-top: 20px;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nagłówek z napisem -->
+    <h1>Patocoach dostaje kopa na łeb</h1>
+    <span class="highlight">ZOBACZ JAK</span>
+
+    <!-- Kontener na wideo -->
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/xCGy8fou6uA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
